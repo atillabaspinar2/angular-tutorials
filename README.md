@@ -1,6 +1,6 @@
 # Angular Tutorial Notes
 
-Personal notes and tutorials covering Angular from core concepts to advanced topics, written against modern Angular (17–21+) with signals, standalone components, and zoneless change detection.
+Personal notes and tutorials covering Angular from core concepts to advanced topics, written against modern Angular (17–22+) with signals, standalone components, and zoneless change detection.
 
 ---
 
@@ -17,8 +17,9 @@ Personal notes and tutorials covering Angular from core concepts to advanced top
 | 07 | [Signals and Effects](tutorials/07.signals-effects.md) | `signal`, `computed`, `effect`, reactive context, `untracked`, RxJS interop, `input`/`model`/`output`, React comparison |
 | 08 | [Directives](tutorials/08.Directives.md) | Built-in vs custom directives, host events, directive inputs and aliases, service injection, `hostDirectives` |
 | 09 | [Pipes](tutorials/09.Pipes.md) | Built-in pipes, parameters, chaining, `async` pipe, custom pipes, pure vs impure |
-| 10 | [Dependency Injection](tutorials/10.DependencyInjection.md) | `inject()`, `providedIn`, hierarchical injectors, `InjectionToken`, tree-shakable services |
+| 10 | [Dependency Injection](tutorials/10.DependencyInjection.md) | `inject()`, `@Injectable`, `@Service()` (v22), `providedIn`, component-level providers, `InjectionToken`, `useClass`/`useValue`/`useFactory`, optional injection |
 | 11 | [Change Detection](tutorials/11.ChangeDetection.md) | Zone.js, `OnPush` strategy, `ChangeDetectorRef`, `NgZone`, zoneless mode with signals |
 | 12 | [HTTP](tutorials/12.Http.md) | `HttpClient`, GET/POST/PUT/DELETE, `catchError`, `finalize`, service patterns, interceptors, `toSignal` |
 | 13 | [Reactive Forms](tutorials/13.ReactiveForms.md) | `FormGroup`, `FormControl`, built-in and custom validators, async validators, value changes, programmatic updates |
-| 14 | [Routing](tutorials/14.Routing.md) | `RouterModule`, route configuration, lazy loading, guards, `ActivatedRoute`, `Router` |
+| 14 | [Routing](tutorials/14.Routing.md) | Setup, `router-outlet`, `routerLink`, route params, `ActivatedRoute`, `snapshot` vs observable, query params, nested routes, resolvers, `runGuardsAndResolvers`, guards (`canActivate`, `canDeactivate`, `canMatch`) |
+| 15 | [Deployment](tutorials/15.Deployment.md) | `ng build`, `ng deploy`, SSR with `@angular/ssr`, rendering modes (`Prerender`/`Server`/`Client`), SSR pitfalls |
