@@ -1,6 +1,10 @@
 # Angular Tutorial Notes
 
-Personal notes and tutorials covering Angular from core concepts to advanced topics, written against modern Angular (17–22+) with signals, standalone components, and zoneless change detection.
+A focused reference series for developers who already know Angular. Use it for quick fact-checking, refreshing a concept before a project, or preparing for interviews.
+
+The official Angular documentation is thorough but large — these notes distill the parts that matter for day-to-day development. Together they cover the majority of what you'll encounter in a typical Angular codebase. Each article is a **5–15 minute read**.
+
+Written against modern Angular (17–22+) with signals, standalone components, and zoneless change detection.
 
 ---
 
